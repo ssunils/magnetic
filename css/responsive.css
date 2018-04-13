@@ -1,0 +1,49 @@
+@media screen and (max-width: 680px){
+
+.navbar-brand {
+	font-size: 30px;
+	padding: 15px;
+}
+
+.banner-head {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.banner {
+	height: 50%;
+}
+
+.gray-bg h5{
+	font-size: 13px;
+	padding: 15px 0 0 0;
+}
+
+.team {
+	font-size: 10px;
+}
+
+.black {
+	background-color: transparent;
+	position: static;
+}
+.black-2 {
+	position: absolute;
+	bottom: 0;
+}
+.chart-bg h4, p {
+	font-size: 10px;
+}
+.chart-bg {
+	padding-top: 120px;
+}
+.center-bg, .blue-bg {
+	margin: 10px;
+}
+
+.testimonial h4{
+	font-size: 13px;
+}
+
+
+}
