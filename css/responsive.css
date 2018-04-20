@@ -1,4 +1,4 @@
-@media screen and (max-width: 680px){
+@media (max-width: 767px) {
 
 .navbar-brand {
 	font-size: 30px;
@@ -14,6 +14,11 @@
 	height: 50%;
 }
 
+.logo-col {
+	text-align: center;
+	margin: 40px;
+}
+
 .gray-bg h5{
 	font-size: 13px;
 	padding: 15px 0 0 0;
@@ -23,20 +28,36 @@
 	font-size: 10px;
 }
 
-.black {
-	background-color: transparent;
-	position: static;
+.team i{
+	margin-bottom: 20px;
 }
+
+.mobile .fa{
+	margin-top: 20px;
+}
+
+.mobile .active {
+	display: inline-block;
+}
+
 .black-2 {
-	position: absolute;
-	bottom: 0;
+	margin: 10px;
 }
+
+.video {
+	margin: 0;
+	padding: 0;
+	width: 80%;
+}
+
 .chart-bg h4, p {
 	font-size: 10px;
 }
+
 .chart-bg {
 	padding-top: 120px;
 }
+
 .center-bg, .blue-bg {
 	margin: 10px;
 }
@@ -45,5 +66,9 @@
 	font-size: 13px;
 }
 
+.slide-txt {
+	top: 40px;
+	width: 10%;
+}
 
 }
