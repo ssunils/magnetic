@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+
+.navbar-brand {
+	font-size: 30px;
+	padding: 15px;
+}
+
+.banner-head {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.banner {
+	height: 50%;
+}
+
+.logo-col {
+	text-align: center;
+	margin: 40px;
+}
+
+.gray-bg h5{
+	font-size: 13px;
+	padding: 15px 0 0 0;
+}
+
+.team {
+	font-size: 10px;
+}
+
+.team i{
+	margin-bottom: 20px;
+}
+
+.mobile .fa{
+	margin-top: 20px;
+}
+
+.mobile .active {
+	display: inline-block;
+}
+
+.black-2 {
+	margin: 10px;
+}
+
+.video {
+	margin: 0;
+	padding: 0;
+	width: 80%;
+}
+
+.chart-bg h4, p {
+	font-size: 10px;
+}
+
+.chart-bg {
+	padding-top: 120px;
+}
+
+.center-bg, .blue-bg {
+	margin: 10px;
+}
+
+.testimonial h4{
+	font-size: 13px;
+}
+
+.slide-txt {
+	top: 40px;
+	width: 10%;
+}
+
+}
