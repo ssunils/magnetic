@@ -196,13 +196,13 @@ body {
 	/*width: 100%;*/
 }
 
-.slide-txt {
-	padding: 2%;
-	position: absolute;
-	top: 0;
-	color: white;
-	width: 15%;
-}
+/*.slide-txt {*/
+	/*padding: 2%;*/
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*color: white;*/
+	/*width: 15%;*/
+/*}*/
 /*.gray-circ {
 	height: 60px;
 	width: 60px;
@@ -267,3 +267,14 @@ body {
 	border-top: 1px solid #444548; 
 }
 
+.slides{
+	background: url("../images/quote.png") center center;
+	background-size: cover;
+
+	min-height: 300px;
+	padding: 15px;
+	color: #fff;
+}
+.slick-slides{
+	vertical-align: middle;
+}
