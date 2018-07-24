@@ -25,11 +25,11 @@
 				<div class="collapse navbar-collapse" id="navbar-1">	
 			 	<ul class="navbar-nav ml-auto text-right">
 			    	<li class="nav-item">
-			    		<a class="nav-link disabled" href="#">Home</a>
+			    		<a class="nav-link disabled" href="index.html">Home</a>
 			    		<div class="bor-bot"></div>
 			    	</li>
 			    	<li class="nav-item">
-			    		<a class="nav-link" href="#">Pages</a>
+			    		<a class="nav-link" href="aboutus.html">About us</a>
 			    	</li>
 			    	<li class="nav-item">
 			      		<a class="nav-link" href="#">Projects</a>
@@ -50,7 +50,7 @@
 	<div class="banner-form">	
 		<div class="container">
 			<div class="row">
-				<div class="offset-1 col-md-4">
+				<div class="offset-sm-1 col-md-4">
 				<div class="form-1 text-center p-4">
 					<p class="small my-1">I would like to discuss:</p>
 					<h4 class="my-1">Request a Call back</h4>
@@ -60,7 +60,7 @@
 					  <div class="form-row">
 					    <div class="col-12 col-md-6 mb-2">
 					    	<select class="form-control">
-	      						<option>Buisness Plan</option>
+	      						<option>Business Plan</option>
 							    <option>2</option>
 							    <option>3</option>
 							    <option>4</option>
@@ -258,30 +258,37 @@
 	<div class="jumbotron-fluid">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-4 col-md-2 my-auto text-center">
-					<ul class="nav nav-pills">
-					    <li class="nav-item mx-auto">
-					      <a class="nav-link active" href="#">CREATIVITY</a>
-					    </li>
-					    <li class="nav-item mx-auto">
-					      <a class="nav-link" href="#">EXPERIENCE</a>
-					    </li>
-					    <li class="nav-item mx-auto">
-					      <a class="nav-link" href="#">SPEED</a>
-					    </li>
-					    <li class="nav-item mx-auto">
-					      <a class="nav-link" href="#">ADAPTIVITY</a>
-					    </li>
-					 </ul>
-				</div>	 
-				<div class="col-10 col-sm-7 offset-1 col-md-4 my-auto">
-					<i class="fa fa-play-circle"></i>
-					<h5>Your Exciting Journey into Starts With our Agency Here</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tortor ex. Morbi cursus sed neque quis dictum. Duis bibendum ullamcorper pharetra. Vivamus quis turpis et enim volutpat convallis. Suspendisse maximus ex at lacus feugiat commodo. Fusce iaculis odio quis massa lobortis viverra.</p>
-					<a href="#" class="btn btn-primary px-4 my-4"><span class="small">VIEW DETAIL</span></a>
-				</div>
-				<div class="d-none d-md-block offset-1 col-md-4">
-					<div data-aos="fade-up" data-aos-delay="250"><img class="img-fluid" src="images/mobile.png" alt="mobile"/></div>
+				<div class="col-12 col-md-12">
+					<div class="d-flex flex-row my-auto">
+						<ul class="nav nav-tabs flex-column my-auto" role="navigation">
+						  <li class="nav-item">
+						    <a class="nav-link active" href="#creativity" role="tab" data-toggle="tab">CREATIVITY</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#experience" role="tab" data-toggle="tab">EXPERIENCE</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#speed" role="tab" data-toggle="tab">SPEED</a>
+						  </li>
+						    <li class="nav-item">
+						    <a class="nav-link" href="#adaptivity" role="tab" data-toggle="tab">ADAPTIVITY</a>
+						  </li>
+						</ul>
+
+						<div class="tab-content my-auto">
+						  <i class="fa fa-play-circle"></i>
+						  <div role="tabpanel" class="tab-pane fade show active" id="creativity">Your Exciting Journey into Starts With our Agency Here. Losafdf fgsgff qwerwer ewrwe dfdsf dfdf wer rem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit afsdf dfs met, consectetur adipiscing elit. In quis tortor ex.
+						  </div>
+						  <div role="tabpanel" class="tab-pane fade" id="experience">Your Exciting Journey into Starts With our Agency Here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lor Lorem ipsum dolor sit amet, fdcddf dsf consectetur adipiscing elit. In quis tortor ex. Morbi cursus sed neque quis dictum. Duis bibendum ullamcorper pharetra.</div>
+						  <div role="tabpanel" class="tab-pane fade" id="speed">Your Exciting Journey into Starts With our Agency Here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your Exciting Journey into Starts With our Agency Here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lor Lor Fusce iaculis odio quis mdsfsdassa lobortis viverra.</div>
+						  <div role="tabpanel" class="tab-pane fade" id="adaptivity">Vivamus quis turpis et enim volutpat convallis. Suspendisse maximus ex fds dfdfas adfsad at lafdsaf mefdsf efsef cus feugiat commodo. Your Exciting Journey into Starts With our Agency Here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lor</div>
+						  <a href="#" class="btn btn-primary px-4 my-4"><span class="small">VIEW DETAIL</span></a>  
+						</div>
+						  
+						<div class="d-none d-md-block">
+							<img class="img-fluid" src="images/mobile.png" alt="mobile"/>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -357,24 +364,18 @@
 				<p class="gray-text">Praesent placerat massa eget bibendum euismod</p>
 			
 				<div class="slides">
-					<div><img src="images/quote.png" class="img-fluid" alt="quote"/>
-						<div class="slide-txt">
-							<p class="small">Cras ac dignissim purus. Quisque ultrices rutrum. Mauris dapibus, nibh sit amet venenatis porta, enim tellus elementum</p>
-							<p>Matthew Spencer</p>
-							<p class="small">Client</p>
-							<div class="gray-circ"></div>
-						</div>
+					<div class="slide-txt">
+						<p class="small">Cras ac dignissim purus. Quisque ultrices rutrum. Mauris dapibus, nibh sit amet venenatis porta, enim tellus elementum</p>
+						<p>Matthew Spencer</p>
+						<p class="small">Client</p>
+						<div class="gray-circ"></div>
 					</div>
-					<div><img src="images/quote.png" class="img-fluid" alt="quote"/>
-						<div class="slide-txt">
-							<p>Matthew Spencer</p>
-							<p class="small">Client</p>
-						</div>
+					<div class="slide-txt">
+						<p>Matthew Spencer</p>
+						<p class="small">Client</p>
 					</div>
-					<div><img src="images/quote.png" class="img-fluid" alt="quote"/>
-						<div class="slide-txt">
-							<p class="small">Client</p>
-						</div>
+					<div class="slide-txt">
+						<p class="small">Client</p>
 					</div>
 				</div>
 			</div>
