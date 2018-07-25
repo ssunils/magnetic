@@ -199,6 +199,25 @@ body {
 	vertical-align: middle;
 } 
 
+/*.slide-txt {*/
+	/*padding: 2%;*/
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*color: white;*/
+	/*width: 15%;*/
+/*}*/
+/*.gray-circ {
+	height: 60px;
+	width: 60px;
+	border: 1px ;
+	border-radius: 50px;
+	background-color: gray;
+	position: absolute;
+	bottom: -25px;
+	left: 40%;
+}
+*/
+
 .slick-dots li.slick-active button:before {
     /*opacity: .75;*/
     color: blue !important;
@@ -252,3 +271,14 @@ body {
 	border-top: 1px solid #444548; 
 }
 
+.slides{
+	background: url("../images/quote.png") center center;
+	background-size: cover;
+
+	min-height: 300px;
+	padding: 15px;
+	color: #fff;
+}
+.slick-slides{
+	vertical-align: middle;
+}
