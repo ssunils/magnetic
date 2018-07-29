@@ -1,0 +1,291 @@
+body {
+	font-size: 12px;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("css/fonts/MyriadPro-Regular.otf");
+}
+
+.about_banner {
+	background: url("About_banner.jpg") no-repeat center center;
+	background-size: cover;	
+	padding-bottom: 150px;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 35px;
+	margin-right: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.nav-item {
+	padding: 20px 30px 0;
+}
+
+.rule {
+	border-bottom: 2px solid;
+	color: #4a7cbd;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.bor-bot  {
+    border-bottom: 2px solid #8799a3;
+    position: relative;
+    top: 23px; 
+}
+
+.gray-text {
+	color: #b5b5b5;	
+}
+
+.txt-white {
+	color: white;
+}
+
+.about-head {
+	margin-top: 150px;
+}
+
+.icons {
+	cursor: pointer;
+}
+
+.checked {
+	border:solid 2px red;
+	background:#ffff00;
+}
+
+.round-btn {
+	border-radius: 20px;
+	font-size: 12px;
+	padding: 10px 50px; 
+}
+
+.founder {
+	background-color: #f2f4f5;
+}
+
+.founder-img {
+	position: relative;
+	bottom: 15px;
+}
+
+.years-list{
+	background: white;
+	border-radius: 50px;
+	padding: 40px;
+}
+
+#divs div {
+    display:none;
+}
+
+.radio-btn {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-btn:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-btn input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-btn input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-btn .checkmark:after {
+ 	top: 7px;
+	left: 7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: white;
+}
+.btn-primary{
+	background-color: #3a53de;
+}
+.our-partners .fa{
+	padding: 5px;
+	color: black;
+}
+
+.gray-box {
+	background-color: #f3f4f6;
+}
+
+.box-txt{
+	padding: 50px 70px;
+}
+
+.btn-outline-light{
+	background-color: white;
+	padding: 10px 30px;	
+}
+
+ul {
+	list-style: none;
+}
+
+.box-txt li::before {
+	content: "•"; 
+	color: #1abc9c;
+	display: inline-block; 
+	width: 20px;
+	margin-left: 0;
+	font-size: 18px;
+	margin-left: -40px;
+}
+
+.progressBar{
+	position: relative;
+	width: 100%;
+	height: 15px;
+	border-radius: 10px;
+	background-color: #f3f4f6;
+}
+
+.progress {
+	height: 15px;
+	border-radius: 10px;
+}
+
+.purple{
+	background-color: #8e00ff;
+}
+
+.blue{
+	background-color: #0f6ccf;
+}
+
+.green {
+	background-color: #7bc341;
+}
+
+.shadow{
+	/*box-shadow: 1px 2px 4px grey;*/
+}
+
+.owl-carousel .item-video{
+	height:200px;
+	margin: 30px 0;
+}
+
+/*.owl-carousel .fixed-video-aspect {
+  position: relative;
+}
+.owl-carousel .fixed-video-aspect:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+.owl-carousel .fixed-video-aspect > .item-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}*/
+.abt-video {
+	height: 40%;
+}
+
+.video-txt{
+	margin-left: -20px;
+}
+.video-txt2 {
+	margin-left: 70px;
+}
+
+.footer-rule {
+	 border-right: 1px solid #444548;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.footer-1 {
+	background-color: #2f3033;
+	color: white;
+}
+
+.form-black input[type=text]{
+	background-color: #444548;
+}
+
+.footer-icon .fa {
+	color: white;
+}
+
+.footer-icon .blue-twit {
+	color: #3b55e6;
+}
+
+.blue-twit .fa {
+	color: #3b55e6;
+}
+
+.no-blue a{
+	text-decoration: none;
+	color: gray;
+}
+
+.footer-2 {
+	background-color: #252628;
+	padding: 20px;
+	color: #5b5b5c;
+	border-top: 1px solid #444548; 
+}

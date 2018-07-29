@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>About Us</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<!-- 	<link rel="stylesheet" href="LineProgressbar-master/jquery.lineProgressbar.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+
+<script>
+		$(document).ready(function(){
+          var $divs = $('#divs > div');
+          $divs.first().show()
+          $('input[type=radio]').on('change',function() {
+                $divs.hide();
+                $divs.eq($('input[type=radio]').index(this)).show();
+           });
+		});
+
+	$(document).ready(function(){
+		$('.purple').animate({width:'90%'},2000);
+		$('.blue').animate({width:'70%'},2000);
+		$('.green').animate({width:'40%'},2000);
+	});
+
+</script>
+
+</head>
+<body>
+
+<header>
+<div class="about_banner">
+	<div class="container">
+		<nav class="navbar navbar-expand-md navbar-dark rule">
+			<a class="navbar-brand logo" href="#">Magnetic</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbar-1">	
+			 	<ul class="navbar-nav ml-auto text-right">
+			    	<li class="nav-item">
+			    		<a class="nav-link" href="index.html">Home</a>
+			    	</li>
+			    	<li class="nav-item">
+			    		<a class="nav-link disabled" href="aboutus.html">About us</a>
+			    		<div class="bor-bot"></div>
+			    	</li>
+			    	<li class="nav-item">
+			      		<a class="nav-link" href="#">Projects</a>
+			    	</li>
+			    	<li class="nav-item">
+			      		<a class="nav-link" href="#">Shortcodes</a>
+			    	</li>
+			    	<li class="nav-item">
+			      		<a class="nav-link" href="#">Blog</a>
+			    	</li>
+			    	<li class="nav-item">
+			      		<a class="nav-link" href="#">Shop</a>
+			    	</li>
+			  	</ul>
+		    </div>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="gray-text about-head">Home &nbsp;  - &nbsp;  Travelling   &nbsp;-&nbsp;   Standard gallery post</div>
+				<h2 class="txt-white font-weight-bold">About Us</h2>
+			</div>		
+		</div>
+	</div>
+</div>		
+</header>
+
+<div class="designer">
+	<div class="container">
+		<div class="row my-5">
+			<div class="col-12 col-md-4">
+				<img src="images/About_team.jpg" class="img-fluid" alt="Team"/>
+			</div>
+			<div class="col-12 col-md-7 icons">
+				<h2>Hello. We Are Designer.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+				<div class="row my-4 d2">
+					<div class="col-3 col-sm-2"><img id="1" class="select_img" src="images/About_icon-1.jpg" alt="icon"/></div>
+					<div class="col-3 col-sm-4 my-auto">WE LOVE DESIGN</div>
+					<div class="col-3 col-sm-2"><img id="2" class="select_img" src="images/About_icon-2.jpg" alt="icon"/></div>
+					<div class="col-3 col-sm-4 my-auto">WE LOVE DESIGN</div>
+				</div>
+				<div class="row">
+					<div class="col-3 col-sm-2"><img id="3" class="select_img" src="images/About_icon-3.jpg" alt="icon"/></div>
+					<div class="col-3 col-sm-4 my-auto">WE LOVE DESIGN</div>
+					<div class="col-3 col-sm-2"><img id="4" class="select_img" src="images/About_icon-4.jpg" alt="icon"/></div>
+					<div class="col-3 col-sm-4 my-auto">WE LOVE DESIGN</div>			
+				</div>	
+				<!-- <div id="display">*</div> -->
+				<button type="button" class="btn btn-outline-dark round-btn mt-5">PURCHASE NOW</button>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div class="founder">
+	<div class="container">
+		<div class="row my-5">
+			<div class="col-10 col-sm-6 col-md-3 col-lg-2 my-auto">
+				<div class="years-list">
+					<label class="radio-btn">SEP 2000<input type="radio" name="radioBtn" id="#opt1" checked="checked">
+						<span class="checkmark"></span></label>
+					<label class="radio-btn">SEP 2005<input type="radio" name="radioBtn" id="#opt2">
+						<span class="checkmark"></span></label>
+					<label class="radio-btn">SEP 2010<input type="radio" name="radioBtn" id="#opt3">
+						<span class="checkmark"></span></label>
+					<label class="radio-btn">SEP 2012<input type="radio" name="radioBtn" id="#opt4">
+						<span class="checkmark"></span></label>	
+					<label class="radio-btn">SEP 2014<input type="radio" name="radioBtn" id="#opt5">
+						<span class="checkmark"></span></label>
+					<label class="radio-btn">SEP 2016<input type="radio" name="radioBtn" id="#opt6">
+						<span class="checkmark"></span></label>	
+				</div>
+			</div>	
+			<div class="col-6 col-sm-6 col-md-4">
+				<div class="founder-img">
+					<img src="images/About_founder.png" class="img-fluid" alt="founder"/>
+				</div>
+			</div>	
+			<div class="col-12 col-md-4 col-lg-6 my-auto">
+				<h3>Foundation of the Company Story</h3>				
+			<div id="divs">
+				<div id="div1">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas anteposuerit litterarum formasMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formasanteposuerit litterarum formasMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</div>
+				<div id="div2">quam nunc putamus parum claram, anteposuerit litterarum formas anteposuerit litterarum formasMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</div>
+				<div id="div3">anteposuerit litterarum formasMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</div>
+				<div id="div4">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas anteposuerit litterarum formasMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</div>
+				<div id="div5">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formasMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</div>
+				<div id="div6">anteposuerit litterarum formasMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas littera gothica, quam nunc putamus parum</div>
+			</div>
+				<a href="#" class="btn btn-primary px-5 my-4"><span class="small">READ MORE INFO</span></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="our-partners">
+	<div class="container text-center">
+		<p>CRAS VEL TELLUS NEC JUSTO VARIUS</p>
+		<h3>Our Best Partners</h3>
+		<div class="row mt-4">	
+			<div class="col-12 col-md-4">
+				<img src="images/About_member-1.jpg" class="img-fluid" alt="partner">
+				<p class="mb-1 mt-4">DAVID SPENCER</p>
+				<p class="gray-text">Creative director</p>
+				<a href="#"><i class="fa fa-facebook-f"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-vimeo"></i></a>
+				<a href="#"><i class="fa fa-wordpress"></i></a>
+			</div>
+			<div class="col-12 col-md-4">
+				<img src="images/About_member-2.jpg" class="img-fluid" alt="partner">
+				<p class="mb-1 mt-4">MATTHEW WILDER</p>
+				<p class="gray-text">Programmer</p>
+				<a href="#"><i class="fa fa-facebook-f"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-vimeo"></i></a>
+				<a href="#"><i class="fa fa-wordpress"></i></a>
+			</div>
+			<div class="col-12 col-md-4">
+				<img src="images/About_member-3.jpg" class="img-fluid" alt="partner">
+				<p class="mb-1 mt-4">SAMANTHA JAMESON</p>
+				<p class="gray-text">Project Manager</p>
+				<a href="#"><i class="fa fa-facebook-f"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-vimeo"></i></a>
+				<a href="#"><i class="fa fa-wordpress"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="gray-box">
+	<div class="jumbotron-fluid p-0">
+		<div class="row no-gutters my-5">
+			<div class="col-12 col-md-6 p-0">
+				<div class="embed-responsive embed-responsive-16by9 video">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pZ5576Pags4?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+				</div>
+			</div>	
+			<div class="col-12 col-md-6 p-0">
+				<div class="box-txt">
+					<h3>Present Your Product Or Service</h3>
+					<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur.</p>
+						<ul>
+							<li>Interactive Live Builder</li>
+							<li>Valid HTML5 & CSS3 Semantics</li>
+							<li>100% Open Source & Customizable</li>
+							<li>More than 70+ Widgets</li>
+						</ul>
+					<button type="button" class="btn btn-outline-light round-btn gray-text mt-3">READ MORE</button>	
+				</div>	
+			</div>	
+		</div>	
+	</div>
+</div>
+
+<div class="skill">
+	<div class="container">
+		<div class="row">
+			<div class="offset-md-1 col-12 col-md-4">
+				<h3>Our Skills and Expertise</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+			</div>
+			<div class="col-12 col-md-5 offset-md-1">
+				<p class="font-weight-bold">WORDPRESS/HTML</p>
+				<div class="progressBar mb-2">
+					<div class="progress purple"><span class="font-weight-bold ml-5">90%</span></div>
+				</div>
+				<P class="font-weight-bold">GRAPHIC DESIGNER</P>
+				<div class="progressBar mb-2">
+					<div class="progress blue"><span class="font-weight-bold ml-5">70%</span></div>
+				</div>
+				<P class="font-weight-bold">PHOTOGRAPHY</P>
+				<div class="progressBar mb-2">
+					<div class="progress green"><span class="font-weight-bold ml-5">40%</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="screen">
+	<div class="jumbotron-fluid p-0">
+		<div class="row no-gutters my-5">
+			<div class="col-12 col-md-5">
+				<img src="images/About_screen.png" class="img-fluid shadow" alt="screen">
+			</div>
+			<div class="col-12 col-md-5 video-txt">
+				<small>VIVAMUS MALESUADA JUSTO</small>
+				<h3>Innovative solutions to boost your creative projects</h3>
+					<div class="owl-carousel owl-theme">
+						<div class="item-video" data-merge="1"><a class="owl-video fixed-video-aspect" href="https://youtu.be/EhhiY11Z9-U"></a></div>
+    					<div class="item-video" data-merge="2"><a class="owl-video fixed-video-aspect" href="https://youtu.be/YFYiTS46x-8"></a></div>
+    					<div class="item-video" data-merge="1"><a class="owl-video fixed-video-aspect" href="https://https://youtu.be/UOQchsLUehQ"></a></div>	
+					</div>	
+				<p class="video-txt2">Etiam eu aliquet magna. Nam sodales dui elit, a tincidunt diam rutrum vel. Nullam nunc ante, pulvinar sit amet urna vulputate, eleifend auctor risus. Etiam enim diam, interdum quis efficitur ut, pulvinar tristique libero.</p>	
+				<a href="#" class="btn btn-primary video-txt2 px-5 my-4"><span class="small">READ MORE INFO</span></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="clients">
+	<div class="container">
+		<div class="row my-5">
+			<div class="col-12">
+				<img src="images/About_clients.jpg" class="img-fluid" alt="logos">
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="footer-1 mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-2 py-3">
+					<h5 class="mb-4">Shoulder</h5>
+					<small>POSTAL ADDRESS</small>
+					<p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+					<small>POSTAL ADDRESS</small>
+					<p>121 King Street, Melbourne Victoria 3000 Australia</p>
+					<small>BUISNESS PHONE</small>
+					<p>+61 3 8376 6284</p>
+				</div>
+
+				<div class="footer-rule d-none d-sm-block"></div>
+
+				<div class="col-12 col-sm-5 col-md-3 py-3">
+					<p>RECENT POST</p>
+					<div class="row">
+						<div class="col-3 col-xs-3 col-sm-4 col-lg-3 mt-3">
+							<div class="border border-dark box"></div>
+						</div>
+						<div class="col-9 col-sm-8 col-lg-9 mt-3">
+							<div class="recent-post">Best Montion Design is Here Download</div>
+							<i class="fa fa-clock-o gray-text"></i><small class="gray-text"> &nbsp;NOV 12, 2018</small>
+						</div>
+					</div>
+					<div class="row py-4">
+						<div class="col-3 col-sm-4 col-lg-3">
+							<div class="border border-dark box"></div>
+						</div>
+						<div class="col-9 col-sm-8 col-lg-9">
+							<div class="recent-post">Best Montion Design is Here Download</div>
+							<i class="fa fa-clock-o gray-text"></i><small class="gray-text"> &nbsp;NOV 12, 2018</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3 col-sm-4 col-lg-3">
+							<div class="border border-dark box"></div>
+						</div>
+						<div class="col-9 col-sm-8 col-lg-9">
+							<div class="recent-post">Best Montion Design is Here Download</div>
+							<i class="fa fa-clock-o gray-text"></i><small class="gray-text"> &nbsp;NOV 12, 2018</small>
+						</div>
+					</div>
+				</div>
+				<div class="footer-rule d-none d-md-block"></div>
+
+				<div class="col-12 col-sm-6 col-md-3 text-left pt-3">
+					<p class="mb-4">TAG CLOUD</p>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">AUDIO</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">BLOG</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">EXAMPLE</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">GALLERY</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">MAGAZINE</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">NEWS</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">POST</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">QUOTE</span></a>
+					<a href="#" class="btn btn-dark mb-2"><span class="small">VIDEO</span></a>
+					
+					<p class="mt-4">TWITTER</p>
+					<div class="row">
+						<div class="col-1">
+							<a href="#"><i class="fa fa-twitter blue-twit"></i></a>
+						</div>
+						<div class="col-10">
+							<p>Recover WP updated to the version 1.3.4</p>
+							<p class="no-blue"><a href="#">https://t.co/PjMoihwZ</a></p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="footer-rule d-none d-sm-block"></div>
+
+				<div class="col-12 col-sm-5 col-md-3 pt-3">
+					<div class="footer-icon">
+						<p>SUBSCRIBE TO RSS</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam pellentesque.</p>
+						<a href="#"><i class="fa fa-facebook pr-2 mt-4"></i></a>
+						<a href="#"><i class="fa fa-twitter pr-2 blue-twit"></i></a>
+						<a href="#"><i class="fa fa-google-plus pr-2"></i></a>
+						<a href="#"><i class="fa fa-linkedin pr-2"></i></a>
+						<div class="form-black"><input type="text" class="form-control border-0 mt-4" placeholder="Type your mail"></div>
+						<a href="#" class="btn btn-primary btn-block px-5 mt-3"><i class="fa fa-rss"></i><small>&nbsp; SUBSCRIBE</small></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer-2 text-center gray-text">
+		Theme © 2018 • Designed with love by Desginer
+	</div>
+</footer>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="	sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!-- 	<script src="LineProgressbar-master/jquery.lineProgressbar.min.js"></script> 
+
+	<script>
+		$(document).ready(function(){
+		$('#progressbar1').LineProgressbar({
+		percentage: 25,
+		fillBackgroundColor: '#1abc9c',
+		radius: '15px'
+		});
+		$('#progressbar2').LineProgressbar({
+		percentage: 25,
+		fillBackgroundColor: '#9b59b6',
+		radius: '15px'
+		});
+		$('#progressbar3').LineProgressbar({
+		percentage: 25,
+		fillBackgroundColor: '#e67e22',
+		radius: '15px'
+		duration: 1000,
+		height: '10px',
+  		width: '100%',
+  		ShowProgressCount: true
+
+		})
+		});
+	</script>
+ -->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+
+<script>
+	$(document).ready(function(){
+	$('.owl-carousel').owlCarousel({
+        items:1,
+        merge:true,
+        loop:true,
+        margin:10,
+        video:true,
+        lazyLoad:true,
+        center:true,
+        responsive:{
+            480:{
+                items:2
+            },
+            600:{
+                items:4
+            }
+        }
+    })
+});
+</script>
+
+
+</body>
+</html>

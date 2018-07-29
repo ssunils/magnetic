@@ -11,9 +11,14 @@
 
 .banner {
 	padding: 0;
+	margin: 0;
 }
 .navbar-brand img{
 	width: 120px;
+}
+
+.bor-bot {
+	display: none;
 }
 
 .logo-col {
@@ -80,6 +85,32 @@
 }
 
 
+/*.slide-txt {
+	padding-right: 3%;
+	width: 13%;
+}*/
+/*------------------About us----------------------------*/
+.designer h2{
+	margin-top: 30px;
+}
+.years-list {
+	padding: 20px;
+}
+
+.our-partners .fa{
+	padding-bottom: 20px;
+}
+
+.video-txt{
+	margin-left: 40px;
+}
+
+.video-txt {
+	margin-top: 20px;
+}
+.video-txt2 {
+	margin-left: 0px; 
+}
 
 }
 
